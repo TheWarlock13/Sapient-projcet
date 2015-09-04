@@ -9,5 +9,9 @@ public class Item {
 	private String description;
 	public String getDescription() {return description;}
 	public void setDescription(String description) {this.description = description;}
+	
+	private OrderDetail orderdetail = new OrderDetail();
+	public OrderDetail getOrderdetail() {return orderdetail;}
+	public void setOrderdetail(OrderDetail orderdetail) {this.orderdetail = orderdetail;}
 
 }
